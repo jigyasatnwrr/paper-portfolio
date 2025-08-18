@@ -1,3 +1,8 @@
+@font-face {
+    font-family: domain;
+    src: url(domain.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -44,7 +49,7 @@ html, body{
 }
 
 #elements{
-    height: 430px;
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -69,7 +74,6 @@ html, body{
 }
 
  #image-div{
-    height: 70%;
     width: 100%;
     overflow: hidden;
 }
@@ -84,12 +88,50 @@ transition: all ease 0.4s;}
 }
 
 span{
-    background-color: orangered;
-    padding: 5px;
-    color: whitesmoke;
+    background-color: #B43B12;
+    padding: 4px;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #C4BCB3;
+    margin-left: 10px;
 }
 #elem1 h4{
-    font-size:20px;
+    font-size:22px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+#elem1 p{
+    font-size:20px;
+    font-weight: lighter;
+    font-family: domain;
+}#elem3 h4{
+    font-size:22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+#elem3 p{
+    font-size:20px;
+    font-weight: lighter;
+    font-family: domain;
+}
+#elem2 h2{
+    font-family: canopee;
+    font-size: 45px;
+    font-weight: 200;
+}
+#elem2 h4{
+    font-family: domain;
+    font-size: 37px;
+    color: #3b3b3b;
+     font-weight: 100;
+    margin: 15px 2px;
+}
+#elem2 h6{
+    font-family: domain;
+    font-size: 20px;
+    color: #2f2f2f;
+    font-weight: 100;
 }
