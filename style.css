@@ -19,7 +19,8 @@ html, body{
     height:100vh;
     width: 100vw;
     background-color: #C4BCB3;
-    position: relative; /**/
+    position: relative; 
+    overflow-x: hidden;
 }
 
 #nav{
@@ -119,13 +120,13 @@ span{
 }
 #elem2 h2{
     font-family: canopee;
-    font-size: 45px;
+    font-size: 55px;
     font-weight: 200;
 }
 #elem2 h4{
     font-family: domain;
-    font-size: 37px;
-    color: #3b3b3b;
+    font-size: 30px;
+    
      font-weight: 100;
     margin: 15px 2px;
 }
@@ -135,3 +136,15 @@ span{
     color: #2f2f2f;
     font-weight: 100;
 }
+#mainheading { font-size: 450px;
+    font-weight: 100; 
+    font-family: canopee; 
+    background-color: #1c1c19; 
+    color: #C4BCB3; 
+    text-align: center; 
+    line-height: 1; 
+    letter-spacing: -18px; 
+    margin: 0px 2%; 
+    overflow-wrap: break-word; 
+    width: auto; 
+    box-sizing: border-box; }
